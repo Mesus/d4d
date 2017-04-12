@@ -5,5 +5,5 @@ RUN apt-get -y install python-pip
 RUN pip install Django
 COPY / /
 EXPOSE 8080
-ENTRYPOINT ["python manage.py runserver 0.0.0.0:8080","8080"]
+ENTRYPOINT ["python manage.py runserver 0.0.0.0:8080"]
 
